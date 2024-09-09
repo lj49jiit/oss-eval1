@@ -1,0 +1,30 @@
+employee_data=[]
+def employee_data(name,ID,department,salary):
+    dict employee={name:"employee_name",
+                   ID:"employee_id",
+                   department:"employee_department",
+                   salary:"employee_salary"}
+    def add_employee(employee:str):
+        if employee not in employee_data:
+            employee_data.append(employee)
+            print(f" '{employee}' has been added
+                  else
+                  print(f"'{employee}' is already in database)
+                        
+    def search_employee(employee:str)->bool:
+                    if employee in employee_data
+                        print(f" '{employee}' is present)
+                    else
+                        print(f" '{employee}' is not present)
+def update_data(employee:str):
+        
+        if employee  in employee_data:
+            employee_data.remove(employee)
+            employee_data.append(str)
+            print(f" '{employee}' has been updated
+                  else
+                  print(f"'{employee}' is not in database)
+                        
+    def prime(int x):
+        for i=n:
+        
